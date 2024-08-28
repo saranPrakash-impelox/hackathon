@@ -1,0 +1,12 @@
+
+.transition-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity .5s ease, transform 1s ease;
+  }
+  
+  .transition-container.loaded {
+    opacity: 1;
+    transform: translateY(0);
+  }
+    
